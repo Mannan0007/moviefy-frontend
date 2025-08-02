@@ -1,0 +1,51 @@
+.starting-background {
+  position: relative;
+  min-height: 100vh;
+  background: url("../assets/Netflix-Background.jpg") center/cover no-repeat;
+}
+.background-overlay2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Darker background */
+  z-index: 1; /* Behind content but above background */
+  align-items: center;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: rgba(95, 93, 93, 0.7); /* Darker background */
+padding: 50px;
+border-radius: 20px;
+  height: 50%;
+  flex-direction:column;
+  width: 30%;
+  padding: 2pc;
+}
+.login-container button{
+  border: 3px solid black  ;
+    border-radius: 10px;
+    /* margin-top: 10px; */
+    background-color: rgba(31, 30, 30, 0);
+    font-size: 19px;
+    width: 7pc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 2pc;
+
+  }
+.login-container button:hover{
+    background-color: rgb(36, 130, 36);
+}
+.login-container a:hover{
+color: lightgreen;
+
+}

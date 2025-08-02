@@ -1,0 +1,35 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.homepage{
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    /* min-width: 100vw; */
+    width: 100%;
+        overflow-x: hidden;
+
+}
+
+.trending-movies-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* background-color: aquamarine; */
+    height: 20pc;
+    align-items: center;
+}
+
+.movie-container{
+    background-color: grey;
+    height: 89%;
+    width: 15%;
+    border: solid grey 1px;
+    border-radius: 10px;
+}
+.movie-container:hover{
+    border: solid white 2px;
+}
